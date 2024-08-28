@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2SM4FdPOJzpueWR1dohD5eN+S1fZmfOeV4ZbHobOg0icvQHLANwQ7jtVO+GeeO2TbRtLXIZaK2JPY7vSwu+1Xg==",
+  "success": true,
+  "projectFilePath": "/home/elysium/Projects/AGssistant/AGssistant.csproj",
+  "expectedPackageFiles": [
+    "/home/elysium/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.7/microsoft.aspnetcore.app.ref.8.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
