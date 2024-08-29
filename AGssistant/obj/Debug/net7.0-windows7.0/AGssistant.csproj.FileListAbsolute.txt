@@ -1,0 +1,17 @@
+C:\Users\ely\Projects\AGssistant\AGssistant\bin\Debug\net7.0-windows7.0\AGssistant.exe
+C:\Users\ely\Projects\AGssistant\AGssistant\bin\Debug\net7.0-windows7.0\AGssistant.deps.json
+C:\Users\ely\Projects\AGssistant\AGssistant\bin\Debug\net7.0-windows7.0\AGssistant.runtimeconfig.json
+C:\Users\ely\Projects\AGssistant\AGssistant\bin\Debug\net7.0-windows7.0\AGssistant.dll
+C:\Users\ely\Projects\AGssistant\AGssistant\bin\Debug\net7.0-windows7.0\AGssistant.pdb
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\AGssistant.Main.resources
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\AGssistant.csproj.GenerateResource.cache
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\AGssistant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\AGssistant.AssemblyInfoInputs.cache
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\AGssistant.AssemblyInfo.cs
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\AGssistant.csproj.CoreCompileInputs.cache
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\AGssistant.sourcelink.json
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\AGssistant.dll
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\refint\AGssistant.dll
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\AGssistant.pdb
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\AGssistant.genruntimeconfig.cache
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net7.0-windows7.0\ref\AGssistant.dll
