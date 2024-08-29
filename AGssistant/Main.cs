@@ -6,10 +6,6 @@ namespace AGssistant
     public partial class Main : Form
     {
 
-        private System.Windows.Forms.Timer timer;
-        private int slideSteps = 10;
-        private bool isSlidingLeft = true;
-
         public Main()
         {
             InitializeComponent();
