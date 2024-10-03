@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AGssistant")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81a29c880b1853446a80e8eac47fa92cc1d419d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a7ee6d3ba2da3b0867fcf4b4135ad7f8f4318f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AGssistant")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AGssistant")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

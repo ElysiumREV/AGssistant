@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4CEAF75A-5625-4D6A-8709-DD1C5E7C21C9}|AGssistant.csproj|C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4CEAF75A-5625-4D6A-8709-DD1C5E7C21C9}|AGssistant.csproj|c:\\users\\ely\\projects\\agssistant\\agssistant\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEAF75A-5625-4D6A-8709-DD1C5E7C21C9}|AGssistant.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEAF75A-5625-4D6A-8709-DD1C5E7C21C9}|AGssistant.csproj|c:\\users\\ely\\projects\\agssistant\\agssistant\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4CEAF75A-5625-4D6A-8709-DD1C5E7C21C9}|AGssistant.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CEAF75A-5625-4D6A-8709-DD1C5E7C21C9}|AGssistant.csproj|c:\\users\\ely\\projects\\agssistant\\agssistant\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CEAF75A-5625-4D6A-8709-DD1C5E7C21C9}|AGssistant.csproj|solutionrelative:main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CEAF75A-5625-4D6A-8709-DD1C5E7C21C9}|AGssistant.csproj|c:\\users\\ely\\projects\\agssistant\\agssistant\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CEAF75A-5625-4D6A-8709-DD1C5E7C21C9}|AGssistant.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\Main.cs",
-              "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\Main.cs",
-              "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "Main.Designer.cs",
+              "ToolTip": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\Main.Designer.cs",
+              "RelativeToolTip": "Main.Designer.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAQwG4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T17:25:04.562Z",
+              "WhenOpened": "2024-10-03T13:44:06.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
               "ToolTip": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\Main.cs [Design]",
               "RelativeToolTip": "Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T17:20:35.25Z",
+              "WhenOpened": "2024-10-03T12:51:09.153Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\Main.Designer.cs",
-              "RelativeDocumentMoniker": "Main.Designer.cs",
-              "ToolTip": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\Main.Designer.cs",
-              "RelativeToolTip": "Main.Designer.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAkwK4AAAAdAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T17:03:11.254Z",
+              "WhenOpened": "2024-08-29T17:25:04.562Z",
               "EditorCaption": ""
             }
           ]

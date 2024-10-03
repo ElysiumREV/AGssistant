@@ -1,33 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\AGssistant.csproj": {}
+    "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\AGssistant.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\AGssistant.csproj": {
+    "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\AGssistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\AGssistant.csproj",
+        "projectUniqueName": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\AGssistant.csproj",
         "projectName": "AGssistant",
-        "projectPath": "c:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\AGssistant.csproj",
+        "projectPath": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\AGssistant.csproj",
         "packagesPath": "C:\\Users\\ely\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\obj\\",
+        "outputPath": "C:\\Users\\ely\\Projects\\AGssistant\\AGssistant\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\ely\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0-windows7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "net7.0-windows7.0": {

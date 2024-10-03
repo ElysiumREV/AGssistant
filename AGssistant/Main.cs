@@ -9,6 +9,10 @@ namespace AGssistant
         public Main()
         {
             InitializeComponent();
+
+            string fundoAmarelo = "#FBFFCD";
+            Color myColor = System.Drawing.ColorTranslator.FromHtml(fundoAmarelo);
+            panel3.BackColor = myColor;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -43,6 +47,26 @@ namespace AGssistant
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+         
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void title_Click(object sender, EventArgs e)
         {
 
         }
