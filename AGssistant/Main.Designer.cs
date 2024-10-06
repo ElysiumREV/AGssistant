@@ -37,15 +37,14 @@
             title = new Label();
             panelContainer = new Panel();
             panel3 = new Panel();
+            panel2 = new Panel();
             label2 = new Label();
-            button2 = new Button();
-            button5 = new Button();
-            button3 = new Button();
-            button4 = new Button();
+            label4 = new Label();
             label3 = new Label();
             panel1.SuspendLayout();
             panelContainer.SuspendLayout();
             panel3.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -65,10 +64,11 @@
             // button1
             // 
             button1.AutoSize = true;
+            button1.Dock = DockStyle.Left;
             button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.Location = new Point(12, 12);
+            button1.Location = new Point(0, 0);
             button1.Name = "button1";
-            button1.Size = new Size(75, 62);
+            button1.Size = new Size(75, 86);
             button1.TabIndex = 6;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click_4;
@@ -84,15 +84,17 @@
             label1.Size = new Size(61, 23);
             label1.TabIndex = 5;
             label1.Text = "label1";
+            label1.Click += label1_Click;
             // 
             // button6
             // 
+            button6.BackColor = Color.Transparent;
             button6.Dock = DockStyle.Right;
+            button6.Image = (Image)resources.GetObject("button6.Image");
             button6.Location = new Point(709, 0);
             button6.Name = "button6";
             button6.Size = new Size(75, 86);
             button6.TabIndex = 4;
-            button6.Text = "Sobre";
             button6.UseVisualStyleBackColor = true;
             button6.Click += button6_Click_1;
             // 
@@ -121,12 +123,9 @@
             // panel3
             // 
             panel3.BackColor = Color.Transparent;
+            panel3.Controls.Add(panel2);
+            panel3.Controls.Add(label4);
             panel3.Controls.Add(label3);
-            panel3.Controls.Add(label2);
-            panel3.Controls.Add(button2);
-            panel3.Controls.Add(button5);
-            panel3.Controls.Add(button3);
-            panel3.Controls.Add(button4);
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(0, 0);
             panel3.Name = "panel3";
@@ -134,63 +133,45 @@
             panel3.TabIndex = 4;
             panel3.Paint += panel3_Paint;
             // 
+            // panel2
+            // 
+            panel2.Controls.Add(label2);
+            panel2.Dock = DockStyle.Right;
+            panel2.Location = new Point(606, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(178, 355);
+            panel2.TabIndex = 7;
+            panel2.Paint += panel2_Paint;
+            // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             label2.Font = new Font("Fira Sans", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(582, 45);
+            label2.Location = new Point(0, 65);
             label2.Name = "label2";
-            label2.Size = new Size(190, 40);
+            label2.Size = new Size(178, 225);
             label2.TabIndex = 4;
             label2.Text = "Nossas Dicas!";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             label2.Click += label2_Click;
             // 
-            // button2
+            // label4
             // 
-            button2.Location = new Point(582, 95);
-            button2.Name = "button2";
-            button2.Size = new Size(190, 30);
-            button2.TabIndex = 1;
-            button2.Text = "Para o Corpo";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.Anchor = AnchorStyles.Right;
-            button5.Location = new Point(582, 203);
-            button5.Name = "button5";
-            button5.Size = new Size(190, 30);
-            button5.TabIndex = 3;
-            button5.Text = "Mais Dicas";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
-            // 
-            // button3
-            // 
-            button3.Anchor = AnchorStyles.Right;
-            button3.Location = new Point(582, 131);
-            button3.Name = "button3";
-            button3.Size = new Size(190, 30);
-            button3.TabIndex = 2;
-            button3.Text = "Para a Mente";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Anchor = AnchorStyles.Right;
-            button4.Location = new Point(582, 167);
-            button4.Name = "button4";
-            button4.Size = new Size(190, 30);
-            button4.TabIndex = 3;
-            button4.Text = "Para a Segurança";
-            button4.UseVisualStyleBackColor = true;
+            label4.Font = new Font("Fira Sans", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(236, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(364, 355);
+            label4.TabIndex = 6;
+            label4.TextAlign = ContentAlignment.MiddleCenter;
+            label4.Click += label4_Click;
             // 
             // label3
             // 
+            label3.Dock = DockStyle.Left;
             label3.Image = (Image)resources.GetObject("label3.Image");
-            label3.Location = new Point(12, 6);
+            label3.Location = new Point(0, 0);
             label3.Name = "label3";
-            label3.Size = new Size(230, 340);
+            label3.Size = new Size(230, 355);
             label3.TabIndex = 5;
             // 
             // Main
@@ -208,6 +189,7 @@
             panel1.PerformLayout();
             panelContainer.ResumeLayout(false);
             panel3.ResumeLayout(false);
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -218,13 +200,11 @@
         private Panel panel3;
         private Panel drawstring;
         private Button button6;
-        private Button button2;
-        private Button button5;
-        private Button button3;
-        private Button button4;
         private Label label1;
         private Label label2;
         private Button button1;
         private Label label3;
+        private Label label4;
+        private Panel panel2;
     }
 }
