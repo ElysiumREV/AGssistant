@@ -16,3 +16,7 @@ C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net8.0-windows7.0\AGssista
 C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net8.0-windows7.0\AGssistant.genruntimeconfig.cache
 C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net8.0-windows7.0\ref\AGssistant.dll
 C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net8.0-windows7.0\AGssistant.Properties.Resources.resources
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net8.0-windows7.0\AGssistant.corpo.resources
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net8.0-windows7.0\AGssistant.mental.resources
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net8.0-windows7.0\AGssistant.seguranca.resources
+C:\Users\ely\Projects\AGssistant\AGssistant\obj\Debug\net8.0-windows7.0\AGssistant.sobreNos.resources

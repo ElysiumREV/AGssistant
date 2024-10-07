@@ -37,10 +37,19 @@
             title = new Label();
             panelContainer = new Panel();
             panel3 = new Panel();
+            corpo1 = new corpo();
+            label5 = new Label();
             panel2 = new Panel();
+            button5 = new Button();
+            button4 = new Button();
+            button3 = new Button();
+            button2 = new Button();
             label2 = new Label();
             label4 = new Label();
             label3 = new Label();
+            mental1 = new mental();
+            seguranca1 = new seguranca();
+            sobreNos1 = new sobreNos();
             panel1.SuspendLayout();
             panelContainer.SuspendLayout();
             panel3.SuspendLayout();
@@ -123,6 +132,11 @@
             // panel3
             // 
             panel3.BackColor = Color.Transparent;
+            panel3.Controls.Add(sobreNos1);
+            panel3.Controls.Add(seguranca1);
+            panel3.Controls.Add(mental1);
+            panel3.Controls.Add(corpo1);
+            panel3.Controls.Add(label5);
             panel3.Controls.Add(panel2);
             panel3.Controls.Add(label4);
             panel3.Controls.Add(label3);
@@ -133,8 +147,29 @@
             panel3.TabIndex = 4;
             panel3.Paint += panel3_Paint;
             // 
+            // corpo1
+            // 
+            corpo1.Location = new Point(0, 0);
+            corpo1.Name = "corpo1";
+            corpo1.Size = new Size(612, 355);
+            corpo1.TabIndex = 9;
+            // 
+            // label5
+            // 
+            label5.Font = new Font("Fira Sans", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(304, 3);
+            label5.Name = "label5";
+            label5.Size = new Size(238, 51);
+            label5.TabIndex = 8;
+            label5.TextAlign = ContentAlignment.MiddleCenter;
+            label5.Click += label5_Click;
+            // 
             // panel2
             // 
+            panel2.Controls.Add(button5);
+            panel2.Controls.Add(button4);
+            panel2.Controls.Add(button3);
+            panel2.Controls.Add(button2);
             panel2.Controls.Add(label2);
             panel2.Dock = DockStyle.Right;
             panel2.Location = new Point(606, 0);
@@ -143,13 +178,53 @@
             panel2.TabIndex = 7;
             panel2.Paint += panel2_Paint;
             // 
+            // button5
+            // 
+            button5.Location = new Point(39, 228);
+            button5.Name = "button5";
+            button5.Size = new Size(114, 36);
+            button5.TabIndex = 7;
+            button5.Text = "button5";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click_1;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(39, 186);
+            button4.Name = "button4";
+            button4.Size = new Size(114, 36);
+            button4.TabIndex = 6;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click_1;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(39, 144);
+            button3.Name = "button3";
+            button3.Size = new Size(114, 36);
+            button3.TabIndex = 5;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click_1;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(39, 102);
+            button2.Name = "button2";
+            button2.Size = new Size(114, 36);
+            button2.TabIndex = 4;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_2;
+            // 
             // label2
             // 
-            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            label2.Anchor = AnchorStyles.Right;
             label2.Font = new Font("Fira Sans", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(0, 65);
+            label2.Location = new Point(0, 53);
             label2.Name = "label2";
-            label2.Size = new Size(178, 225);
+            label2.Size = new Size(175, 46);
             label2.TabIndex = 4;
             label2.Text = "Nossas Dicas!";
             label2.TextAlign = ContentAlignment.MiddleCenter;
@@ -158,11 +233,11 @@
             // label4
             // 
             label4.Font = new Font("Fira Sans", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(236, 0);
+            label4.Location = new Point(236, 54);
             label4.Name = "label4";
-            label4.Size = new Size(364, 355);
+            label4.Size = new Size(364, 292);
             label4.TabIndex = 6;
-            label4.TextAlign = ContentAlignment.MiddleCenter;
+            label4.TextAlign = ContentAlignment.MiddleLeft;
             label4.Click += label4_Click;
             // 
             // label3
@@ -173,6 +248,27 @@
             label3.Name = "label3";
             label3.Size = new Size(230, 355);
             label3.TabIndex = 5;
+            // 
+            // mental1
+            // 
+            mental1.Location = new Point(0, 0);
+            mental1.Name = "mental1";
+            mental1.Size = new Size(612, 355);
+            mental1.TabIndex = 10;
+            // 
+            // seguranca1
+            // 
+            seguranca1.Location = new Point(0, 0);
+            seguranca1.Name = "seguranca1";
+            seguranca1.Size = new Size(612, 355);
+            seguranca1.TabIndex = 11;
+            // 
+            // sobreNos1
+            // 
+            sobreNos1.Location = new Point(0, 0);
+            sobreNos1.Name = "sobreNos1";
+            sobreNos1.Size = new Size(612, 355);
+            sobreNos1.TabIndex = 12;
             // 
             // Main
             // 
@@ -206,5 +302,14 @@
         private Label label3;
         private Label label4;
         private Panel panel2;
+        private Button button2;
+        private Button button5;
+        private Button button4;
+        private Button button3;
+        private Label label5;
+        private corpo corpo1;
+        private sobreNos sobreNos1;
+        private seguranca seguranca1;
+        private mental mental1;
     }
 }
